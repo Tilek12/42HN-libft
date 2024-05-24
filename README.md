@@ -19,7 +19,7 @@ Redo a set of functions from the libc. Functions have the same prototypes and im
 They comply with the way they are defined in their man. The only difference will be their names.\
 They begin with the ’ft_’ prefix. For instance, strlen becomes ft_strlen.
 
-You must write your own function implementing the following original ones. They do not require any external functions:
+Included functions:
 - isalpha
 - isdigit
 - isalnum
@@ -42,7 +42,7 @@ You must write your own function implementing the following original ones. They 
 - strnstr
 - atoi
 
-In order to implement the two following functions, you will use malloc():
+With using malloc():
 
 - calloc
 - strdup
