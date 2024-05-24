@@ -47,3 +47,4 @@ In order to implement the two following functions, you will use malloc():
 
 :eight_spoked_asterisk: **Part 2 - Additional functions**
 
+![Additional functions(1) in libft]()
