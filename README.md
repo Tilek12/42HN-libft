@@ -40,11 +40,43 @@ You must write your own function implementing the following original ones. They 
 - memchr
 - memcmp
 - strnstr
-- atoi\
+- atoi
+
 In order to implement the two following functions, you will use malloc():
+
 - calloc
 - strdup
 
 :eight_spoked_asterisk: **Part 2 - Additional functions**
+---
+![Additional functions(1) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft001.png)
+---
+![Additional functions(2) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft002.png)
+---
+![Additional functions(3) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft003.png)
+---
 
-![Additional functions(1) in libft]()
+![Additional functions(4) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft004.png)
+
+
+-----------------------------------------------------------
+
+:yellow_circle: **Bonus part**
+
+:eight_pointed_black_star: Functions to work with linked list:
+
+```
+typedef struct s_list
+{
+  void           *content;
+  struct s_list  *next;
+}                t_list;
+```
+
+![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft_b_001.png)
+----
+![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft_b_002.png)
+----
+![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft_b_003.png)
+----
+
