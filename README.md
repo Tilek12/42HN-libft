@@ -18,7 +18,7 @@
 :eight_spoked_asterisk: **Part 1 - Libc functions**
 
 Redo a set of functions from the libc. Functions have the same prototypes and implement the same behaviors as the originals.\
-They comply with the way they are defined in their man. The only difference will be their names.\
+They comply with the way they are defined in their man. The only difference is in their names.\
 They begin with the ’ft_’ prefix. For instance, strlen becomes ft_strlen.
 
 Included functions:
