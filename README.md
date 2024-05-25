@@ -1,8 +1,16 @@
 # 42Heilbronn :desktop_computer: :de:
 
-## Project - Libft :books:
+<p align="center">
+  <img src="https://github.com/Tilek12/42-project-badges/blob/main/badges/libftm.png">
+</p>
 
-### :white_check_mark: **125/125**
+<h1 align="center">
+  Project - Libft :books:
+</h1>
+
+<h2 align="center">
+  :white_check_mark: 125/125
+</h2>
 
 ### :green_circle: **Mandatory Part**
 
@@ -63,12 +71,12 @@ With using malloc():
 
 -----------------------------------------------------------
 
-## :yellow_circle: **Bonus part**
+## :star: **Bonus part**
 
 ### :eight_pointed_black_star: Functions to work with linked list:
 
 ```
-typedef struct s_list
+typedef          struct s_list
 {
   void           *content;
   struct s_list  *next;
