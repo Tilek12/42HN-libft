@@ -1,4 +1,4 @@
-# 42Heilbronn :desktop_computer: :de:
+# :desktop_computer: 42Heilbronn :de:
 
 <p align="center">
   <img src="https://github.com/Tilek12/42-project-badges/blob/main/badges/libftm.png">
@@ -12,7 +12,10 @@
   :white_check_mark: 125/125
 </h2>
 
-### :green_circle: **Mandatory Part**
+## :scroll: Project info: [subject](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/en.subject_libft.pdf)
+
+## :green_circle: **Mandatory Part**
+
 
 **Program name** | libft.a 
 :---|:---
@@ -21,6 +24,7 @@
 **External functs.** | Detailed below
 **Libft authorized** | n/a
 **Description** | Write your own library: a collection of functions that will be a useful tool for your cursus.
+
 
 
 ### :eight_spoked_asterisk: **Part 1 - Libc functions**
@@ -60,13 +64,13 @@ With using malloc():
 ### :eight_spoked_asterisk: **Part 2 - Additional functions**
 
 
-![Additional functions(1) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft001.png)
+![Additional functions(1) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft001.png)
 -
-![Additional functions(2) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft002.png)
+![Additional functions(2) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft002.png)
 -
-![Additional functions(3) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft003.png)
+![Additional functions(3) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft003.png)
 -
-![Additional functions(4) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft004.png)
+![Additional functions(4) in libft](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft004.png)
 
 
 -----------------------------------------------------------
@@ -83,10 +87,10 @@ typedef          struct s_list
 }                t_list;
 ```
 
-![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft_b_001.png)
+![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft_b_001.png)
 ----
-![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft_b_002.png)
+![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft_b_002.png)
 ----
-![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.pics_libft/libft_b_003.png)
+![Additional functions(1) in libft bonus](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/libft_b_003.png)
 ----
 
