@@ -12,7 +12,7 @@
   :white_check_mark: 125/125
 </h2>
 
-## :scroll: Project info: [subject](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/en.subject_libft.pdf)
+## :clipboard: Project info: [subject](https://github.com/Tilek12/42HN-libft/blob/master/.git_docs_libft/en.subject_libft.pdf)
 
 ## :green_circle: **Mandatory Part**
 
