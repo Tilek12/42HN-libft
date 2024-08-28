@@ -6,11 +6,19 @@
 #    By: tkubanyc <tkubanyc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/09 16:26:09 by tkubanyc          #+#    #+#              #
-#    Updated: 2024/08/28 16:41:06 by tkubanyc         ###   ########.fr        #
+#    Updated: 2024/08/28 17:11:05 by tkubanyc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+# ANSI color codes
+RED = \033[0;31m
+GREEN = \033[0;32m
+YELLOW = \033[0;33m
+BLUE = \033[0;34m
+CYAN = \033[0;36m
+RESET = \033[0m
+
+NAME = libft
 
 SRCS = ft_atoi.c \
 		ft_isalnum.c \
@@ -47,8 +55,7 @@ SRCS = ft_atoi.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
-
-BONUS = ft_lstnew.c \
+		ft_lstnew.c \
 		ft_lstadd_front.c \
 		ft_lstsize.c \
 		ft_lstlast.c \
@@ -56,11 +63,9 @@ BONUS = ft_lstnew.c \
 		ft_lstdelone.c \
 		ft_lstclear.c \
 		ft_lstiter.c \
-		ft_lstmap.c \
+		ft_lstmap.c
 
 OBJS = $(SRCS:.c=.o)
-
-BONUS_OBJS = $(BONUS:.c=.o)
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
@@ -68,17 +73,20 @@ CFLAGS = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcs $(NAME) $(OBJS)
+	@ar rcs $(NAME) $(OBJS)
+	@echo "$(GREEN)libft created.$(RESET)"
 
-bonus: $(NAME) $(BONUS_OBJS)
-	ar rcs $(NAME) $(BONUS_OBJS)
+%.o: %.c
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJS) $(BONUS_OBJS)
+	@rm -f $(OBJS)
+	@echo "$(BLUE)libft object files cleaned.$(RESET)"
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "$(BLUE)libft removed.$(RESET)"
 
 re: fclean all
 
-.PHONY: all clean fclean re bonus
+.PHONY: all clean fclean re
