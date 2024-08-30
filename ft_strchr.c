@@ -6,7 +6,7 @@
 /*   By: tkubanyc <tkubanyc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 16:39:03 by tkubanyc          #+#    #+#             */
-/*   Updated: 2024/03/12 18:40:25 by tkubanyc         ###   ########.fr       */
+/*   Updated: 2024/08/30 14:45:18 by tkubanyc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strchr(const char *str, int c)
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str && str[i] != '\0')
 	{
 		if (str[i] == (char)c)
 			return ((char *)str + i);
